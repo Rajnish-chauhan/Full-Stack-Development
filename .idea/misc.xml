@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/FirstWebApp/pom.xml" />
+        <option value="$PROJECT_DIR$/SessionDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/TestTomcat10/pom.xml" />
+        <option value="$PROJECT_DIR$/HttpServletDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/ServletLifeCycle/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

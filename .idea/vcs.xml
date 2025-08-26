@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Colletion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FirstWebApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GarageBillingSystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HttpServletDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Introduction to Java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Jdbc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Project-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ServletLifeCycle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SessionDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring-core/Spring-CoreP01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring-core/Spring-CoreP02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring-core/Spring-CoreP03" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Springboot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Springboot/BookAPI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Springboot/SpringBootP01/SpringBootP01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Springboot/SpringBootP02" vcs="Git" />
+  </component>
+</project>

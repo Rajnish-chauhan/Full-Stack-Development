@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<!--    <bean id="petrolEng" class="com.cfs.PetrolEngine" scope="singleton"/>-->
+    <bean id="engine" class="com.cfs.PetrolEngine" />
+<!--    <bean id="diselEng" class="com.cfs.DieselEngine" autowire-candidate="false"/>-->
+
+<!--    <bean id="car" class="com.cfs.Car" autowire="byName"/>-->
+
+<!--    <bean id="car" class="com.cfs.Car" autowire-candidate="false"/>-->
+
+    <bean id="car" class="com.cfs.Car" autowire="constructor"/>
+
+<!--            <property name="engine" ref="petrolEng"></property>-->
+<!--        <constructor-arg name="engine" ref="petrolEng"></constructor-arg>-->
+<!--</bean>-->
+</beans>
