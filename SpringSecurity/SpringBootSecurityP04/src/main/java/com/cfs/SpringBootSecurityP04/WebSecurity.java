@@ -1,7 +1,6 @@
 package com.cfs.SpringBootSecurityP04;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.pulsar.PulsarProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -34,12 +33,16 @@ public class WebSecurity {
 
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
-        return configuration.getAuthenticationManager();
+        AuthenticationManager authenticationManager= configuration.getAuthenticationManager();
+        System.out.println("AuthenticationManager called");
+        return authenticationManager;
     }
 
     @Bean
     public PasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder();
+        BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
+        System.out.println("passwordEncoder method called");
+        return bCryptPasswordEncoder;
     }
 }
 
