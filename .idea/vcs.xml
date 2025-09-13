@@ -3,10 +3,12 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Colletion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/File Handling/File-Handle" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FirstWebApp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GarageBillingSystem" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HttpServletDemo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Introduction to Java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JAVA8/JAVA8" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Jdbc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Project-1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ServletLifeCycle" vcs="Git" />
