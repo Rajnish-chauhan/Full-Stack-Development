@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rajnish Chauhan | Java Developer</title>
+    <meta name="description" content="Portfolio of Rajnish Chauhan, Java Developer (Core Java, Spring, Spring Boot, Microservices, Kafka, Docker).">
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="Rajnish Chauhan home">Portfolio</a>
+        <nav class="nav" id="nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Java Developer</p>
+            <h1 class="title">Rajnish Chauhan</h1>
+            <p class="subtitle">
+              Building reliable backends with Core Java, Spring, and Spring Boot, plus hands‑on with Microservices, Kafka, and Docker.
+            </p>
+            <div class="cta">
+              <a href="#projects" class="btn primary">View Projects</a>
+              <a href="#contact" class="btn ghost">Contact</a>
+            </div>
+            <ul class="quick-skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Core Java</li>
+              <li>Spring</li>
+              <li>Spring Boot</li>
+              <li>Microservices</li>
+              <li>Kafka</li>
+              <li>Docker</li>
+            </ul>
+          </div>
+
+          <div class="hero-photo">
+            <div class="photo-wrap">
+              <img src="/Rajnish professional photo.png" alt="Rajnish Chauhan portrait" loading="eager" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-desc">
+            Core backend stack with Java and Spring, complemented by web fundamentals and platform tooling for deployment and messaging.
+          </p>
+          <div class="chip-grid">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Core Java</span>
+            <span class="chip">Spring</span>
+            <span class="chip">Spring Boot</span>
+            <span class="chip">Microservices</span>
+            <span class="chip">Kafka</span>
+            <span class="chip">Docker</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section alt">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-desc">A few representative cards are included as placeholders—replace titles, tags, and descriptions with real work samples.</p>
+
+          <div class="card-grid">
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Order Service API</h3>
+                <p class="card-text">
+                  RESTful service with Spring Boot, JPA, and layered architecture; containerized with Docker.
+                </p>
+                <ul class="tag-list">
+                  <li>Spring Boot</li>
+                  <li>JPA</li>
+                  <li>Docker</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Notification Pipeline</h3>
+                <p class="card-text">
+                  Async notifications powered by Kafka topics and consumer groups for resilient delivery.
+                </p>
+                <ul class="tag-list">
+                  <li>Kafka</li>
+                  <li>Microservices</li>
+                  <li>Java</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Portfolio Web</h3>
+                <p class="card-text">
+                  Responsive client-side app showcasing skills and projects with semantic HTML and modern CSS.
+                </p>
+                <ul class="tag-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-desc">Send a quick message via the form below; client side validation prevents empty submissions.</p>
+
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Full name" required />
+              <span class="error" id="nameError" aria-live="polite"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="name@example.com" required />
+              <span class="error" id="emailError" aria-live="polite"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Give me any idea or Feedback" required></textarea>
+              <span class="error" id="messageError" aria-live="polite"></span>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Rajnish Chauhan — All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/Rajnish-chauhan" aria-label="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/rajnishchauhandevelopercs/" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
