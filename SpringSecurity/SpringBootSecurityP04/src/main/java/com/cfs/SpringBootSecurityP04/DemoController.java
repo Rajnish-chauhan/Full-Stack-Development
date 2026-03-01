@@ -1,6 +1,7 @@
 package com.cfs.SpringBootSecurityP04;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.converter.json.GsonBuilderUtils;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -22,6 +23,7 @@ public class DemoController {
     @GetMapping("/public")
     public String publicMethod(){
         System.out.println("public method called");
+        System.out.println("Test push");
         return "This is public method";
     }
     @GetMapping("/admin")
