@@ -27,5 +27,6 @@ public class LoginServlet extends HttpServlet {
 
         //redirect to welcome
         resp.sendRedirect("welcome");
+
     }
 }
